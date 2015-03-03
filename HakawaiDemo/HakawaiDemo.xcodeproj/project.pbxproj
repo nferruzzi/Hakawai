@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD6CE1B81AA5A21F006B29CD /* TableDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD6CE1B71AA5A21F006B29CD /* TableDemoViewController.m */; };
 		E11DF8C319E7741D0072F4AD /* MentionsManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DF8C219E7741D0072F4AD /* MentionsManager.m */; };
 		E11DF8C619E774CD0072F4AD /* MentionEntity.m in Sources */ = {isa = PBXBuildFile; fileRef = E11DF8C519E774CD0072F4AD /* MentionEntity.m */; };
 		E1562BA119E72A6F00D68787 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E1562BA019E72A6F00D68787 /* main.m */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD6CE1B61AA5A21F006B29CD /* TableDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableDemoViewController.h; sourceTree = "<group>"; };
+		AD6CE1B71AA5A21F006B29CD /* TableDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableDemoViewController.m; sourceTree = "<group>"; };
 		E11DF8C119E7741D0072F4AD /* MentionsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentionsManager.h; sourceTree = "<group>"; };
 		E11DF8C219E7741D0072F4AD /* MentionsManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MentionsManager.m; sourceTree = "<group>"; };
 		E11DF8C419E774CD0072F4AD /* MentionEntity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MentionEntity.h; sourceTree = "<group>"; };
@@ -80,6 +83,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD6CE1B31AA5A1D5006B29CD /* Table */ = {
+			isa = PBXGroup;
+			children = (
+				AD6CE1B61AA5A21F006B29CD /* TableDemoViewController.h */,
+				AD6CE1B71AA5A21F006B29CD /* TableDemoViewController.m */,
+			);
+			name = Table;
+			sourceTree = "<group>";
+		};
 		E1562B9219E72A6F00D68787 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +119,7 @@
 				E1562BCA19E72C4400D68787 /* Basic */,
 				E1562BCB19E72C4B00D68787 /* AbstractionLayer */,
 				E1562BCC19E72C5100D68787 /* Mentions */,
+				AD6CE1B31AA5A1D5006B29CD /* Table */,
 				E1562BAB19E72A6F00D68787 /* Main.storyboard */,
 				E1562BAE19E72A6F00D68787 /* Images.xcassets */,
 				E1562BB019E72A6F00D68787 /* LaunchScreen.xib */,
@@ -266,6 +279,7 @@
 				E11DF8C619E774CD0072F4AD /* MentionEntity.m in Sources */,
 				E192339A1A940C6300A6159D /* SimpleChooserView.swift in Sources */,
 				E1562BC919E72C2600D68787 /* MentionsDemoViewController.m in Sources */,
+				AD6CE1B81AA5A21F006B29CD /* TableDemoViewController.m in Sources */,
 				E1562BA419E72A6F00D68787 /* AppDelegate.m in Sources */,
 				E1562BA719E72A6F00D68787 /* BasicDemoViewController.m in Sources */,
 				E11DF8C319E7741D0072F4AD /* MentionsManager.m in Sources */,
